@@ -1,33 +1,40 @@
 {
   "core_app": {
-    "version": "1.0.1",
-    "release_notes": "Updated release with dynamic plugin architecture.",
-    "download_url": "https://github.com/KalaimaranB/BioPro/releases/latest"
+    "version": "1.0.7",
+    "download_url": "https://github.com/KalaimaranB/BioPro/releases/latest",
+    "release_notes_url": "https://github.com/KalaimaranB/BioPro/releases/tag/v1.0.7",
+    "release_date": "2026-05-06"
   },
+  "trusted_developers": [
+    {
+      "developer_id": "Kalaimaran",
+      "public_key": "8c1f68355afe0e8861bad31e28df6087330483ed65bbcabcc0745ebaac7d1a33"
+    }
+  ],
   "plugins": {
     "western_blot": {
       "name": "Western Blot Densitometry",
       "version": "1.0.7",
       "min_core_version": "1.0.4",
-      "description": "Automated lane detection, band quantification, and Ponceau normalization.",
-      "author": "Kalaimaran Balasothy",
-      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/western_blot/v1.0.7/western_blot.zip"
+      "author_id": "Kalaimaran",
+      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/western_blot/v1.0.7/western_blot.zip",
+      "description": "Automated lane detection, band quantification, and Ponceau normalization."
     },
     "cytometrics": {
       "name": "CytoMetrics",
       "version": "0.1.7",
       "min_core_version": "1.0.4",
-      "description": "AI-assisted multi-channel cell morphology quantification.",
-      "author": "Kalaimaran Balasothy",
-      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/cytometrics/v0.1.7/cytometrics.zip"
+      "author_id": "Kalaimaran",
+      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/cytometrics/v0.1.7/cytometrics.zip",
+      "description": "AI-assisted multi-channel cell morphology quantification."
     },
     "flow_cytometry": {
       "name": "Flow Cytometry Workspace",
       "version": "0.2.1",
       "min_core_version": "1.0.4",
-      "description": "Scientist-centric flow cytometry analysis with FMO-guided gating, adaptive gates, workflow templates, and full workspace control.",
-      "author": "Kalaimaran Balasothy",
-      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/flow_cytometry/v0.2.1/flow_cytometry.zip"
+      "author_id": "Kalaimaran",
+      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/flow_cytometry/v0.2.1/flow_cytometry.zip",
+      "description": "Scientist-centric flow cytometry analysis with FMO-guided gating, adaptive gates, workflow templates, and full workspace control."
     }
   }
 }
