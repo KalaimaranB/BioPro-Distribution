@@ -14,10 +14,10 @@
   "plugins": {
     "western_blot": {
       "name": "Western Blot Densitometry",
-      "version": "1.0.7",
+      "version": "1.2.0",
       "min_core_version": "1.0.4",
       "author_id": "Kalaimaran",
-      "download_url": "https://github.com/KalaimaranB/BioPro-Plugins/releases/download/western_blot/v1.0.7/western_blot.zip",
+      "download_url": "https://github.com/KalaimaranB/BioPro-western-blot/releases/download/v1.2.0/western_blot_v1.2.0.zip",
       "description": "Automated lane detection, band quantification, and Ponceau normalization."
     },
     "cytometrics": {
