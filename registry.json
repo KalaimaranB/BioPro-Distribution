@@ -5,12 +5,6 @@
     "release_notes_url": "https://github.com/KalaimaranB/BioPro/releases/tag/v1.0.7",
     "release_date": "2026-05-06"
   },
-  "trusted_developers": [
-    {
-      "developer_id": "Kalaimaran",
-      "public_key": "83b2b0f7a243105dd83fb71d8353ea4d965e264f74bc7088dd783af05a63ec9a"
-    }
-  ],
   "plugins": {
     "western_blot": {
       "name": "Western Blot Densitometry",
