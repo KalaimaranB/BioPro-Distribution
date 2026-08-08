@@ -24,12 +24,12 @@
     },
     "flow_cytometry": {
       "name": "Flow Cytometry Workspace",
-      "version": "0.8.2.7",
+      "version": "0.8.2.8",
       "min_core_version": "1.0.4",
       "author_id": "Kalaimaran",
-      "download_url": "https://github.com/KalaimaranB/BioPro-flow-cytometry/releases/download/v0.8.2.7/flow_cytometry_v0.8.2.7.zip",
+      "download_url": "https://github.com/KalaimaranB/BioPro-flow-cytometry/releases/download/v0.8.2.8/flow_cytometry_v0.8.2.8.zip",
       "description": "Scientist-centric flow cytometry analysis with FMO-guided gating, adaptive gates, workflow templates, and full workspace control.",
-      "sha256": "4dc439056feb5dc443a33b096260d532633435a4da3b8a72eb099a40288eb9ef"
+      "sha256": "184cf9bcd596ac1e5ed2bb4a604ba530475dc7752fc985071d7f6399fd334f79"
     }
   }
 }
