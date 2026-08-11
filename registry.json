@@ -1,35 +1,22 @@
 {
-  "core_app": {
-    "version": "1.0.8",
-    "download_url": "https://github.com/KalaimaranB/BioPro/releases/latest",
-    "release_notes_url": "https://github.com/KalaimaranB/BioPro/releases/tag/v1.0.7",
-    "release_date": "2026-05-06"
-  },
+  "version": "2",
   "plugins": {
     "western_blot": {
-      "name": "Western Blot Densitometry",
-      "version": "1.2.2",
-      "min_core_version": "1.0.4",
-      "author_id": "Kalaimaran",
-      "download_url": "https://github.com/KalaimaranB/BioPro-western-blot/releases/download/v1.2.2/western_blot_v1.2.2.zip",
-      "description": "Automated lane detection, band quantification, and Ponceau normalization."
+      "repo_url": "https://github.com/KalaimaranB/BioPro-western-blot"
     },
     "cytometrics": {
-      "name": "CytoMetrics",
-      "version": "0.2.2",
-      "min_core_version": "1.0.4",
-      "author_id": "Kalaimaran",
-      "download_url": "https://github.com/KalaimaranB/BioPro-cytometrics/releases/download/v0.2.2/cytometrics_v0.2.2.zip",
-      "description": "AI-assisted multi-channel cell morphology quantification."
+      "repo_url": "https://github.com/KalaimaranB/BioPro-cytometrics"
     },
     "flow_cytometry": {
-      "name": "Flow Cytometry Workspace",
-      "version": "0.8.2.8",
-      "min_core_version": "1.0.4",
-      "author_id": "Kalaimaran",
-      "download_url": "https://github.com/KalaimaranB/BioPro-flow-cytometry/releases/download/v0.8.2.8/flow_cytometry_v0.8.2.8.zip",
-      "description": "Scientist-centric flow cytometry analysis with FMO-guided gating, adaptive gates, workflow templates, and full workspace control.",
-      "sha256": "184cf9bcd596ac1e5ed2bb4a604ba530475dc7752fc985071d7f6399fd334f79"
+      "repo_url": "https://github.com/KalaimaranB/BioPro-flow-cytometry"
     }
+  },
+  "sdk": {
+    "version": "1.0.4",
+    "download_url": "https://github.com/KalaimaranB/BioPro-SDK/releases/download/v1.0.4/biopro_sdk.zip"
+  },
+  "themes": {
+    "version": "1.0.0",
+    "download_url": "https://github.com/KalaimaranB/BioPro/releases/download/v1.0.0/themes.zip"
   }
 }
