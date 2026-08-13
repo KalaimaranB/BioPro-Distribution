@@ -10,7 +10,7 @@ Welcome to the **BioPro Distribution Registry**. This repository serves as the o
 ## 📂 Core Registry Files
 
 *   **[`registry.json`](registry.json)**: The official pointer index. In version 2, this file strictly maps plugin IDs to their source repositories (`repo_url`). The BioPro Core application uses this file to eagerly fetch live plugin metadata (versions, descriptions, authors, etc.) directly from each plugin's `pyproject.toml`.
-*   **[`authorities.json`](authorities.json)**: The root cryptographic trust-store containing the public key for the authorized core publisher (`BioPro Core Authority`).
+*   **[`authorities.json`](authorities.json)**: The root cryptographic trust-store containing the public key for the authorized core publisher (`Karcytics Core Authority`).
 
 ---
 
@@ -31,6 +31,6 @@ To maintain security and integrity, BioPro validates all downloads using public-
 
 | Authority Name | Authority ID | Public Key (SHA-256) |
 | :--- | :--- | :--- |
-| **BioPro Core Authority** | `biopro_core` | `08f4319b6f979057b36b0db2b8faaee6eff8782f3aafd5e924ba79b04d4c8366` |
+| **Karcytics Core Authority** | `biopro_core` | `08f4319b6f979057b36b0db2b8faaee6eff8782f3aafd5e924ba79b04d4c8366` |
 
 Plugin authors receive cryptographic signatures from the Core Authority. In turn, plugin authors can delegate trust to CI bots to automate package signing during releases.
