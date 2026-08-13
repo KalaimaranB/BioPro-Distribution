@@ -9,6 +9,9 @@
     },
     "flow_cytometry": {
       "repo_url": "https://github.com/KalaimaranB/BioPro-flow-cytometry"
+    },
+    "synthetic_biology": {
+      "repo_url": "https://github.com/KalaimaranB/BioPro-synthetic-biology"
     }
   }
 }
